@@ -1,0 +1,54 @@
+// Faça um algoritmo que leia os valores a,b, c e imprima na tela se a soma de a+b é menor que c
+// let a = 23,
+//   b = 38,
+//   c = 75;
+
+// if (a + b < c) {
+//   console.log("A soma de a + b É menor que c");
+// } else {
+//   console.log("A soma de a + b NÃO é menor que c");
+// }
+
+// Faça um algoritmo que leia dois valores inteiros. A e B se os valores forem iguais deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+let a = parseInt(prompt("Insira o primeiro valor inteiro:"));
+let b = parseInt(prompt("Insira o segundo valor inteiro:"));
+let c;
+
+if (a === b) {
+  c = a + b;
+  console.log("A soma de " + a + " e " + b + " é: " + c);
+} else {
+  c = a * b;
+  console.log("A multiplicação de " + a + " e " + b + " é: " + c);
+}
+----------------
+
+# Front-end-Java
+
+Repositório de estudos do programa Bolsa Futuro Digital, voltado para desenvolvimento front-end.
+
+Faça um algoritmo que leia os valores a,b, c e imprima na tela se a soma de a+b é menor que c
+R:
+
+Lógica em pseudo-linguagem
+a=23, b=38, c=75;
+resultado = if {
+a + b < c;
+print("A soma de a+b É menor que c");
+} else {
+print("A soma de a+b NÃO é menor que c");
+}
+
+Faça um algoritmo que leia dois valores inteiros. A e B se os valores forem iguais deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+
+Lógica em pseudo-linguagem
+int a = input("Insira o primeiro valor inteiro:");
+int b = input("Insira o segundo valor inteiro:");
+if {
+  a == b;
+  c = a+b;
+  print("A soma de" + a + " e " + b " é: "+ c);
+}else {
+  c = a*b;
+  print("A multiplicação de" + a + " e " + b " é: "+ c);
+}
